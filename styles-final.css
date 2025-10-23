@@ -1,0 +1,814 @@
+/* Styles for Final Slides (18-21) - Append to styles-complete.css */
+
+/* ============================================
+   IMPACT SLIDE (18)
+============================================ */
+.impact-dimensions {
+    margin-top: 3rem;
+}
+
+.impact-dimension {
+    margin-bottom: 3rem;
+    background: var(--white);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+}
+
+.dimension-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid var(--secondary-teal);
+}
+
+.dimension-icon {
+    font-size: 3rem;
+}
+
+.dimension-header h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: var(--primary-blue);
+}
+
+.impact-metrics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.impact-metric-card {
+    background: var(--background-light);
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.impact-metric-card:hover {
+    transform: translateY(-5px);
+}
+
+.metric-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.impact-metric-card .metric-value {
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--secondary-teal);
+    margin: 0.5rem 0;
+}
+
+.metric-label {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primary-blue);
+    margin-bottom: 0.5rem;
+}
+
+.metric-desc {
+    font-size: 0.9rem;
+    color: var(--text-light);
+}
+
+.long-term-vision {
+    margin-top: 3rem;
+    padding: 2rem;
+    background: var(--gradient-primary);
+    color: var(--white);
+    border-radius: 12px;
+}
+
+.long-term-vision h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.vision-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.vision-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+}
+
+.vision-item h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+}
+
+.impact-statement-box {
+    margin-top: 3rem;
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-lg);
+    border-left: 5px solid var(--accent-gold);
+}
+
+.impact-statement-box h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-blue);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.impact-statement {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: var(--text-dark);
+}
+
+/* ============================================
+   CALL TO ACTION SLIDE (19)
+============================================ */
+.cta-slide .cta-intro {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: var(--gradient-primary);
+    color: var(--white);
+    border-radius: 12px;
+}
+
+.cta-intro h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta-section {
+    background: var(--white);
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    margin-bottom: 3rem;
+}
+
+.cta-section.professor {
+    border: 3px solid var(--accent-gold);
+}
+
+.cta-icon {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.cta-section h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-blue);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.ask-item {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: var(--background-light);
+    border-radius: 8px;
+}
+
+.ask-number {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    background: var(--gradient-accent);
+    color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ask-content h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-blue);
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.involvement-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.involvement-card {
+    background: var(--background-light);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--secondary-teal);
+}
+
+.involvement-icon {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.involvement-card h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-blue);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.involvement-card ul {
+    list-style: none;
+}
+
+.involvement-card li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.involvement-card li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--success-green);
+    font-weight: bold;
+}
+
+.next-steps-timeline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    overflow-x: auto;
+    padding: 1rem 0;
+}
+
+.next-step {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    padding: 1.5rem;
+    background: var(--white);
+    border-radius: 8px;
+    box-shadow: var(--shadow-sm);
+}
+
+.step-badge {
+    background: var(--secondary-teal);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.step-arrow {
+    font-size: 2rem;
+    color: var(--accent-gold);
+    padding: 0 1rem;
+}
+
+.contact-section {
+    background: var(--background-light);
+    padding: 2rem;
+    border-radius: 12px;
+    margin-top: 3rem;
+}
+
+.contact-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: var(--white);
+    border-radius: 8px;
+}
+
+.contact-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+
+.urgency-banner {
+    background: linear-gradient(135deg, #FFF3CD 0%, #FFE8A1 100%);
+    border: 2px solid var(--accent-gold);
+    padding: 2rem;
+    border-radius: 12px;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.urgency-banner h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-blue);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.urgency-banner p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* ============================================
+   CONCLUSION SLIDE (20)
+============================================ */
+.conclusion-slide .conclusion-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.conclusion-header h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: var(--primary-blue);
+    margin-bottom: 1rem;
+}
+
+.tagline {
+    font-size: 1.3rem;
+    color: var(--text-light);
+    font-style: italic;
+}
+
+.takeaways-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.takeaway-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    border-top: 4px solid var(--secondary-teal);
+}
+
+.takeaway-icon {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.takeaway-card h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-blue);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.summary-boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.summary-box {
+    background: var(--background-light);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--accent-gold);
+}
+
+.summary-box h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-blue);
+    margin-bottom: 0.75rem;
+}
+
+.vision-statement {
+    margin-top: 3rem;
+}
+
+.vision-box {
+    background: var(--gradient-primary);
+    color: var(--white);
+    padding: 3rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: var(--shadow-lg);
+}
+
+.vision-box h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.vision-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.commitment-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.commitment-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: var(--background-light);
+    border-radius: 8px;
+}
+
+.commitment-icon {
+    font-size: 1.5rem;
+    color: var(--success-green);
+    flex-shrink: 0;
+}
+
+.closing-statement {
+    margin-top: 3rem;
+    text-align: center;
+    padding: 3rem;
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: var(--shadow-lg);
+}
+
+.logo-display {
+    margin-bottom: 2rem;
+}
+
+.closing-logo {
+    max-width: 250px;
+    height: auto;
+}
+
+.closing-message {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin: 2rem 0;
+}
+
+.gratitude {
+    font-size: 1.3rem;
+    color: var(--secondary-teal);
+    margin-top: 2rem;
+}
+
+/* ============================================
+   Q&A / FINAL SLIDE (21)
+============================================ */
+.final-slide {
+    background: var(--background-light);
+}
+
+.qa-section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.qa-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.qa-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    color: var(--primary-blue);
+    margin-bottom: 1rem;
+}
+
+.qa-subtitle {
+    font-size: 1.3rem;
+    color: var(--text-light);
+}
+
+.team-info {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+}
+
+.logo-container-qa {
+    margin-bottom: 2rem;
+}
+
+.qa-logo {
+    max-width: 200px;
+    height: auto;
+}
+
+.project-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: var(--primary-blue);
+    margin-bottom: 0.5rem;
+}
+
+.project-tagline {
+    font-size: 1.2rem;
+    color: var(--secondary-teal);
+    font-style: italic;
+}
+
+.contact-info-qa {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    margin-bottom: 2rem;
+}
+
+.contact-grid-qa {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.contact-detail {
+    text-align: center;
+    padding: 1rem;
+    background: var(--background-light);
+    border-radius: 8px;
+}
+
+.contact-icon-qa {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.presentation-date {
+    text-align: center;
+    padding: 1rem;
+    background: var(--background-light);
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.questions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.question-category {
+    background: var(--white);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: var(--shadow-sm);
+}
+
+.question-category h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-blue);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.question-category ul {
+    list-style: none;
+}
+
+.question-category li {
+    padding: 0.5rem 0;
+    color: var(--text-dark);
+}
+
+.resources-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.resource-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: var(--white);
+    border-radius: 8px;
+}
+
+.resource-icon {
+    font-size: 2rem;
+}
+
+.inspirational-quote {
+    margin: 3rem 0;
+    padding: 3rem;
+    background: var(--gradient-primary);
+    color: var(--white);
+    border-radius: 12px;
+    position: relative;
+}
+
+.quote-container {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.quote-mark-open,
+.quote-mark-close {
+    font-size: 5rem;
+    font-family: Georgia, serif;
+    opacity: 0.3;
+}
+
+.quote-mark-open {
+    position: absolute;
+    top: -30px;
+    left: -20px;
+}
+
+.quote-mark-close {
+    position: absolute;
+    bottom: -60px;
+    right: -20px;
+}
+
+.quote-text {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    font-style: italic;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.quote-attribution {
+    text-align: right;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.nelson-mandela-quote {
+    margin: 3rem 0;
+    padding: 3rem;
+    background: linear-gradient(135deg, #2C3E50 0%, #34495E 100%);
+    color: var(--white);
+    border-radius: 12px;
+    border: 3px solid var(--accent-gold);
+}
+
+.mandela-quote-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mandela-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.mandela-quote-text {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    font-style: italic;
+    font-weight: 600;
+    margin: 2rem 0;
+}
+
+.mandela-attribution {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--accent-gold);
+    margin-bottom: 1rem;
+}
+
+.mandela-context {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    opacity: 0.95;
+    font-style: italic;
+}
+
+.final-message {
+    text-align: center;
+    padding: 3rem;
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: var(--shadow-lg);
+    margin-top: 3rem;
+}
+
+.final-message h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: var(--primary-blue);
+    margin-bottom: 1.5rem;
+}
+
+.thank-you-message {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.ready-message {
+    font-size: 1.3rem;
+    color: var(--secondary-teal);
+}
+
+.action-buttons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.action-btn {
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.primary-btn {
+    background: var(--gradient-primary);
+    color: var(--white);
+}
+
+.primary-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
+}
+
+.secondary-btn {
+    background: var(--white);
+    color: var(--primary-blue);
+    border: 2px solid var(--primary-blue);
+}
+
+.secondary-btn:hover {
+    background: var(--primary-blue);
+    color: var(--white);
+}
+
+/* ============================================
+   RESPONSIVE ADJUSTMENTS
+============================================ */
+@media (max-width: 768px) {
+    .next-steps-timeline {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .step-arrow {
+        transform: rotate(90deg);
+        padding: 0.5rem 0;
+    }
+    
+    .qa-title {
+        font-size: 2.5rem;
+    }
+    
+    .quote-text,
+    .mandela-quote-text {
+        font-size: 1.2rem;
+    }
+    
+    .action-buttons {
+        flex-direction: column;
+    }
+}

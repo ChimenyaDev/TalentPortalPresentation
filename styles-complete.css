@@ -1,0 +1,306 @@
+/* Complete Styles for All Remaining Slides (09-21) */
+/* Append this to styles-extended.css or use as standalone */
+
+/* ============================================
+   OBJECTIVE SLIDES COMMON STYLES (08-11)
+============================================ */
+.objective-slide .objective-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.objective-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.objective-icon {
+    margin: 0 auto 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.objective-header h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: var(--primary-blue);
+    margin-bottom: 0.5rem;
+}
+
+.objective-subtitle {
+    font-size: 1.2rem;
+    color: var(--text-light);
+    font-style: italic;
+}
+
+/* Training Programs (Slide 08) */
+.training-programs h3,
+.training-value h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-blue);
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.programs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.program-card {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    border: 2px solid transparent;
+}
+
+.program-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.program-card.featured {
+    border-color: var(--secondary-teal);
+}
+
+.program-badge {
+    position: absolute;
+    top: -12px;
+    right: 20px;
+    background: var(--gradient-accent);
+    color: var(--white);
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.program-icon {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.program-card h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-blue);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.program-features {
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+.program-features li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    font-size: 0.95rem;
+}
+
+.program-features li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--secondary-teal);
+    font-weight: bold;
+}
+
+.program-meta {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    border-top: 2px solid var(--background-light);
+    font-size: 0.9rem;
+    color: var(--text-light);
+}
+
+.value-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.value-item {
+    background: var(--white);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: var(--shadow-sm);
+    text-align: center;
+}
+
+.value-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.value-item h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-blue);
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Opportunities Grid (Slide 09) */
+.opportunities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.opportunity-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    transition: transform 0.3s ease;
+    border-left: 4px solid var(--secondary-teal);
+}
+
+.opportunity-card.highlight {
+    border-left-color: var(--accent-gold);
+    background: linear-gradient(135deg, #ffffff 0%, #fffef8 100%);
+}
+
+.opportunity-card:hover {
+    transform: translateY(-5px);
+}
+
+.opp-icon {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.opportunity-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-blue);
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+}
+
+.opp-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 2px solid var(--background-light);
+    font-size: 0.9rem;
+}
+
+.duration, .stipend {
+    padding: 0.4rem 0.8rem;
+    background: var(--background-light);
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.benefits-section,
+.impact-stats {
+    margin-top: 3rem;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.benefit-card {
+    background: var(--background-light);
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.benefit-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.benefit-card h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-blue);
+    margin-bottom: 0.5rem;
+}
+
+.stats-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.stat-box {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    text-align: center;
+}
+
+.big-number {
+    display: block;
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--secondary-teal);
+    margin-bottom: 0.5rem;
+}
+
+.stat-desc {
+    display: block;
+    color: var(--text-dark);
+    font-size: 1rem;
+}
+
+/* Career Pathway (Slide 10) */
+.pathway-visual {
+    max-width: 600px;
+    margin: 0 auto 3rem;
+}
+
+.pathway-stage {
+    background: var(--white);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.pathway-stage.highlight {
+    background: var(--gradient-primary);
+    color: var(--white);
+}
+
+.pathway-stage.highlight h3,
+.pathway-stage.highlight p {
+    color: var(--white);
+}
+
+.pathway-stage .stage-number {
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background: var(--secondary-teal);
+    color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
